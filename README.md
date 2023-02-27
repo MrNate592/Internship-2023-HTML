@@ -1,6 +1,6 @@
 # Internship-2023-HTML
 
-# My Portfolio Website
+## My Portfolio Website
 This is a website showcasing my skills while learning Html and Css. It includes projects I've worked on and information about me.
 
 # Getting Started
