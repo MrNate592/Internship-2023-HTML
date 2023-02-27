@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-left: 15navbar-logopx;
+    margin-right:15px;
+    background-image:-moz-linear-gradient(12,12,21);
+}
+
+/* Navbar css */
+.navbar {
+    text-decoration: none;
+    position:relative;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    background-image: url('back.jpg');
+
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+
+  }
+  
+  .navbar-menu  {
+    display: flex;
+    list-style: none;
+    
+  }
+  
+  .navbar-menu li a {
+    margin-right: 1rem;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+  }
+  
+  .navbar-menu li a:hover {
+    color: #fff;
+    background-color: #555;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+  }
+  
+  .navbar:hover {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navbar-scrolled {
+    background-color: #333;
+    text-decoration: none;
+
+  }
+  
+
+/* Hero section css */
+  .hero {
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 60vh;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    padding: .1rem;
+    text-align: center;
+    color: black;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-content button {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    border-radius: 10px;
+  }
+  
+  .hero-content button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+
+/* About me css */
+  .about {
+    background: white;
+    padding: 3rem 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  
+  .about .about-row {
+    display: flex;
+    margin-bottom: 3rem;
+  }
+  
+  .about .about-row .about-left {
+    width: 50%; 
+    margin-right: 2rem;
+  }
+  
+  .about .about-row .about-left img {
+    width: 80%;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    border-radius: 15px;
+  }
+  
+  .about .about-row .about-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h4{
+    padding-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  .about .about-row .about-right h3 {
+    font-size: 1.8rem;
+  }
+  .about .about-row .about-right h4 {
+    font-size: 1.8rem;
+  }
+  .about .about-row .about-right .tech-stack-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 1rem;
+  }
+  
+  .about .project-row .project-right .tech-stack-list p {
+    margin-right: 1rem;
+  }
+  
+  .about .project-row .project-right .tech-stack-list li {
+    margin-right: 10000px;
+    font-size: 21.25rem;
+  }
+  
+  .about .project-row .project-right .project-links {
+    margin-top: 1rem;
+  }
+  
+  
+  @media screen and (max-width: 860px) {
+    .about .project-row {
+      display: flex;
+      margin-bottom: 3rem;
+      flex-direction: column;
+    }
+    .about .project-row .project-left {
+      width: 100%;
+    }
+    .about .project-row .project-right {
+      width: 100%;
+    }
+  }
+  
+
+/* Buttons */
+
+  .btn,
+  .btn-blue,
+  .btn-dark,
+  .btn-blue-outline {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.3s;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn-blue {
+    color: white;
+    background-color: #3b82f6;
+    border: 2px solid #3b82f6;
+  }
+  
+  .btn-dark {
+    color: white;
+    background-color: #181a1b;
+  }
+  
+  .btn-blue-outline {
+    color: #3b82f6;
+    background-color: transparent;
+    border: 2px solid #3b82f6;
+  }
+  
+  .btn-blue:hover {
+    transition: all 0.3s ease;
+    background: #0b63f3;
+    border: 2px solid #0b63f3;
+  }
+  
+  .btn-blue-outline:hover {
+    color: white;
+    background-color: #3b82f6;
+  }
+
+ /* Project css */
+  .project-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    padding: .1rem;
+    text-align: center;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+
+  .projects-container{  
+    text-align: center;  
+    }  
+
+  .project {
+    flex: 1;
+    max-width: 30%;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .project:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .project-details {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+  }
+  
+  .project-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+  .project-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #3c3e3e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+
+ /* Contact css */
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 10px;
+    background-color: hwb(203 87% 7%);
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .contact-image {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 50px;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    max-width: 45%;
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+  
+  .contact-form label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  .contact-form button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555;
+  }
+  
