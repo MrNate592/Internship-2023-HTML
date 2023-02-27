@@ -1,7 +1,7 @@
 # Internship-2023-HTML
 
 # My Portfolio Website
-This is a website showcasing my portfolio of work as a web developer. It includes projects I've worked on, my resume, and ways to contact me.
+This is a website showcasing my skills while learning Html and Css. It includes projects I've worked on and information about me.
 
 # Getting Started
 To view the website, simply clone the repository and run the index.html file. You can also use vscode and use the local server extension.
