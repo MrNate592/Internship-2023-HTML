@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
 html {
     scroll-behavior: smooth;
 }
 
 body{
-    margin-left: 15navbar-logopx;
+    margin-left: 15px;
     margin-right:15px;
     background-image:-moz-linear-gradient(12,12,21);
 }
 
-/* Navbar css */
+/* Navbar css -------------------------------------------------- */
 .navbar {
     text-decoration: none;
     position:relative;
@@ -70,9 +71,10 @@ body{
     text-decoration: none;
 
   }
-  
+/* -------------------------------------------------- */
 
-/* Hero section css */
+/* Hero section css -------------------------------------------------- */
+
   .hero {
     background-image: url('back.jpg');
     background-size: cover;
@@ -119,9 +121,9 @@ body{
     background-color: #333;
     color: #fff;
   }
-  
+/* -------------------------------------------------- */
 
-/* About me css */
+/* About me css  -------------------------------------------------- */
   .about {
     background: white;
     padding: 3rem 0;
@@ -164,48 +166,17 @@ body{
     font-weight: bold;
   }
   
-  .about .about-row .about-right h3 {
+  .about .about-row .about-right h3 h4{
     font-size: 1.8rem;
   }
-  .about .about-row .about-right h4 {
-    font-size: 1.8rem;
-  }
-  .about .about-row .about-right .tech-stack-list {
+
+  .about .about-row .about-right {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     margin-top: 1rem;
   }
   
-  .about .project-row .project-right .tech-stack-list p {
-    margin-right: 1rem;
-  }
-  
-  .about .project-row .project-right .tech-stack-list li {
-    margin-right: 10000px;
-    font-size: 21.25rem;
-  }
-  
-  .about .project-row .project-right .project-links {
-    margin-top: 1rem;
-  }
-  
-  
-  @media screen and (max-width: 860px) {
-    .about .project-row {
-      display: flex;
-      margin-bottom: 3rem;
-      flex-direction: column;
-    }
-    .about .project-row .project-left {
-      width: 100%;
-    }
-    .about .project-row .project-right {
-      width: 100%;
-    }
-  }
-  
-
 /* Buttons */
 
   .btn,
