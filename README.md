@@ -5,7 +5,8 @@ This is a website showcasing my skills while learning Html and Css. It includes 
 
 ##  Getting Started
 To view the website, simply clone the repository and run the index.html file. You can also use vscode and use the local server extension.
-``git clone ``
+
+``git clone https://github.com/MrNate592/Internship-2023-HTML.git``
 
 ##  Usage
 The website is designed to be easy to navigate and explore. You can browse my projects, and learn more about me on the "About" page. You can also contact me through the form on the "Contact" page.
