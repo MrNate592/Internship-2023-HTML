@@ -19,7 +19,5 @@ The website is designed to be easy to navigate and explore. You can browse my pr
 ## Authors
 Nathan Budhu
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
